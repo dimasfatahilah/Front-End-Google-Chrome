@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Kelas">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:background="@drawable/corner"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KELAS F"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rekayasa Kebutuhan Sistem"
+            android:textColor="@color/white"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cornerr"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/user"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Bagikan dengan kelas..."
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="80dp"/>
+
+        <ImageButton
+            android:id="@+id/tugas1"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="105dp"
+            android:background="@drawable/cornerr"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/tugas"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tugas Baru: Tugas Akhir RKS"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14 Jan"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="80dp"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="195dp"
+            android:background="@drawable/cornerr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambahkan komentar kelas"
+            android:layout_marginTop="215dp"
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+</LinearLayout>
