@@ -24,3 +24,5 @@ Disini saya menggunakan android studio untuk menghasilkan sebuah tampilan dari f
     
 3. File yang dimasukkan pada folder values :
     - colors.xml
+    
+4. File berekstensi Screenshot.png adalah tampilan dari hasil running program
